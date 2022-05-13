@@ -1,28 +1,26 @@
 # EXERCICES/TRAINING 1: du cours "[Apprenez à créer votre site web avec HTML5 et CSS3](https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3)"
 
-[![vidéo d'intro](https://i.imgur.com/vKb2F1B.png)](https://player.vimeo.com/video/243806963?color=7451eb)
+[![vidéo d'intro](https://i.imgur.com/vKb2F1B.png)](https://player.vimeo.com/video/243808027?color=7451eb)
 
 ---
 
 ## RESSOURCES DE DÉPART:
-- [URL OC de l'exercice](https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3/4214566-pratiquez)
-- [URL Codepen de l'exercice](https://codepen.io/nicolaspatschkowski/pen/KKpqGbO?editors=1100)
-- Ouvrir ce dossier dans un terminal et lancer la commande suivante: "code codepen" afin de réaliser l'exercice en sur votre ordinateur (en local donc, [tag](https://github.com/achicyr/OC__frontend__P2/tree/exos.2))
+- [URL OC de l'exercice](https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3/4214576-pratiquez)
+- [URL Codepen de l'exercice](https://codepen.io/nicolaspatschkowski/pen/yLNXQaO?editors=1100)
+- Ouvrir ce dossier dans un terminal et lancer la commande suivante: "code codepen" afin de réaliser l'exercice en sur votre ordinateur (en local donc, [tag](https://github.com/achicyr/OC__frontend__P2/tree/exos.3))
  
 ---
 
-Voici un nouvel exercice pour mettre en pratique vos compétences en CSS3. 
+Voici un nouvel exercice pour mettre en pratique vos compétences en CSS3 et HTML5. 
 <br>
-Ouvrez [cet éditeur CodePen en ligne](https://codepen.io/nicolaspatschkowski/pen/KKpqGbO?editors=1100). 
+Ouvrez [cet éditeur CodePen en ligne](https://codepen.io/nicolaspatschkowski/pen/yLNXQaO?editors=1100). 
 <br>
-Nous allons mettre en forme la page ! Pour cela, effectuez les tâches suivantes :
+Vous allez effectuer la mise en page d'un site qui s'appelle 'Le blog trotter' ! Pour cela, effectuez les tâches suivantes :
 
-1. Affichez le titre h1 en rouge.
-2. Agrandissez le titre h1 pour lui donner une taille de 3em.
-3. Centrez la figure (image) et sa description.
-4. Ajoutez une bordure continue de la taille et de la couleur de votre choix autour de la liste à puces.
-5. Ajoutez une ombre au cadre autour de la liste à puces.
-6. Affichez les liens en gras lorsqu'on les survole.
+1. Une balise sémantique  <nav> manque, ajoutez-la au bon endroit.
+2. Retirez les puces de la liste à puces (à vous de trouver comment faire !).
+3. Placez le header et le menu côte à côte.
+4. Affichez les paragraphes en justifié, sur 80 % de largeur, et centrez leurs blocs sur la page.
 
 Vous allez construire votre première page HTML. Choisissez bien les balises (vous avez le droit de revoir les chapitres précédents !), placez-les au bon endroit, et CodePen actualisera automatiquement la page pour vous montrer le résultat de votre code.
 
@@ -37,14 +35,14 @@ Bien sûr, ce qui est demandé dans cet exercice est le minimum, mais n'hésitez
 ---
 
 - ### <u style="color:red">AVANT</u>:
-![qlqlchose](https://raw.githubusercontent.com/achicyr/OC__frontend__P2/exos.2/1.png)
+![qlqlchose](https://raw.githubusercontent.com/achicyr/OC__frontend__P2/exos.3/1.png)
 - ### **<u style="color:red">APRÈS</u>**:
-![qlqlchose](https://raw.githubusercontent.com/achicyr/OC__frontend__P2/exos.2/2.png)
+![qlqlchose](https://raw.githubusercontent.com/achicyr/OC__frontend__P2/exos.3/2.png)
 
 ---
 
 ## SOLUTIONS: 
-- Solution codepen: [URL Codepen de la solution de l'exercice](https://codepen.io/nicolaspatschkowski/pen/XWbgxwK?editors=1100 "solution du cours OC")
-- Solution local: [URL Git repository tag "exos.2-sol"](https://github.com/achicyr/OC__frontend__P2/tree/exos.2-sol) ===>>> le fichier est à: ./codepen/mentor.html
+- Solution codepen: [URL Codepen de la solution de l'exercice](https://codepen.io/nicolaspatschkowski/pen/WNvOYGN?editors=1100 "solution du cours OC")
+- Solution local: [URL Git repository tag "exos.3-sol"](https://github.com/achicyr/OC__frontend__P2/tree/exos.3-sol) ===>>> le fichier est à: ./codepen/mentor.html
 - Solution youtube: [URL Youtube de la solution de l'exercice par le mentor](lkjlkjfds "solution mentor")
 
