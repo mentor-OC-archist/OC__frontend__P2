@@ -35,6 +35,6 @@ Bien sûr, ce qui est demandé dans cet exercice est le minimum, mais n'hésitez
 
 ## SOLUTIONS: 
 - Solution codepen: [URL Codepen de la solution de l'exercice](https://codepen.io/nicolaspatschkowski/pen/oNXwQvo?editors=1100 "solution du cours OC")
-- Solution local: [URL Git repository tag "exos.1-sol](https://github.com/achicyr/OC__frontend__P2/tree/exos.1-sol)
+- Solution local: [URL Git repository tag "exos.1-sol"](https://github.com/achicyr/OC__frontend__P2/tree/exos.1-sol)
 - Solution youtube: [URL Youtube de la solution de l'exercice par le mentor](lkjlkjfds "solution mentor")
 
