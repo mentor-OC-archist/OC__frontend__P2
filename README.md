@@ -8,7 +8,7 @@
 - [URL OC de l'exercice](https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3/4004681-pratiquez)
 - [URL Codepen de l'exercice](https://codepen.io/nicolaspatschkowski/pen/qBdjMwE?editors=1000)
 - Ouvrir ce dossier dans un terminal et lancer la commande suivante: "code codepen" afin de réaliser l'exercice en sur votre ordinateur (en local donc, [tag](https://github.com/achicyr/OC__frontend__P2/tree/exos.1))
-
+ 
 ---
 
 Voici un petit exercice pour mettre en pratique vos nouvelles compétences. 
@@ -35,6 +35,6 @@ Bien sûr, ce qui est demandé dans cet exercice est le minimum, mais n'hésitez
 
 ## SOLUTIONS: 
 - Solution codepen: [URL Codepen de la solution de l'exercice](https://codepen.io/nicolaspatschkowski/pen/oNXwQvo?editors=1100 "solution du cours OC")
-- Solution local: [URL Git repository tag "exos.1-sol](https://github.com/achicyr/OC__frontend__P2/tree/exos.1-sol)
+- Solution local: [URL Git repository tag "exos.1-sol"](https://github.com/achicyr/OC__frontend__P2/tree/exos.1-sol)
 - Solution youtube: [URL Youtube de la solution de l'exercice par le mentor](lkjlkjfds "solution mentor")
 
