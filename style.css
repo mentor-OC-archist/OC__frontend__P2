@@ -1,0 +1,77 @@
+/*  */
+
+
+@font-face {
+    font-family: 'alex_brushregular';
+    src: url('./assets/fonts/alexbrush-regular-webfont.woff2') format('woff2'),
+         url('./assets/fonts/alexbrush-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'geraldine_personal_useitalic';
+    src: url('./assets/fonts/geraldine_personal_use-webfont.woff2') format('woff2'),
+         url('./assets/fonts/geraldine_personal_use-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+/*
+------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------
+*/
+
+
+body{
+    background: url(greyzz.png);
+}
+
+h1{
+    color:brown;
+    font-family: alex_brushregular;
+}
+
+h2{
+    color:goldenrod;
+    font-family: geraldine_personal_useitalic;
+}
+
+h1,h2{
+    text-align: center;
+    border-bottom: solid orange;
+}
+
+
+/*
+------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------
+*/
+
+
+body{
+
+}
+
+body>h1{
+}
+body>h1>p{}
+body>h1>a{}
+body>h1>a>img{
+    border:10px double purple;
+    border-radius: 1000px;
+    box-shadow: 0 0 10px 1px black ;
+}
+
+body>section{}
+body>section>h2{}
+body>section>ul{}
+body>section>ul>li{}
+body>section>p{}
+
+
+
+
