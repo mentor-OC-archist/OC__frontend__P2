@@ -27,8 +27,8 @@
 2. Préciser chacun des blocs défini en 1),
 3. Construire le squelette HTML de la page (en ajoutant des ID et class à vos balises de block et balises spécifiques) [solution HTML d'OC](https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3/1606688-tp-creez-un-site-pas-a-pas#/id/r-1611503),
 4. Connecter la page HTML avec un fichier de style CSS,
-5. Mapper le contenu HTML en selecteur CSS de niveau 1,
-6. Définition des [styles principaux (OC)](https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3/1606688-tp-creez-un-site-pas-a-pas#/id/r-1611544),
+5. Mapper le contenu HTML en selecteur CSS de spécificité de niveau 1 (sélecteurs de balise -> sans .class ni #ID (pseudo-éléments autorisés (même si compliqués à placer en fait))),
+6. Définition des [styles principaux (OC)](https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3/1606688-tp-creez-un-site-pas-a-pas#/id/r-1611544) (càd ceux présents dans la charte graphique ou dans le besoin client (police de caractère, couleur, images de fond, dimensiosn et etc...)),
 6. Enfin, mettre en forme votre document HTML bloc par bloc:
     - [En-tête et liens de navigation (OC)](https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3/1606688-tp-creez-un-site-pas-a-pas#/id/r-1611567)
     - [La bannière (OC)](https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3/1606688-tp-creez-un-site-pas-a-pas#/id/r-1611596)
@@ -40,9 +40,11 @@
 - BallparkWeiner  (police exotique) ;
 - Day Roman  (police exotique).
 
-Vous les trouverez dans le dosiier des **ressources téléchargés**.
+Vous trouverez ce spolices dans le dossier des **ressources téléchargées** ("./assets/polices").
 
 Voici comment les intégrer [dans votre fichier CSS](https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3/1606688-tp-creez-un-site-pas-a-pas#/id/r-1611540)
+
+Par soucis simplicité, on utilise pour se faire un générateur de police, dont voici [une adresse:](https://www.fontsquirrel.com/tools/webfont-generator).
 
 ---
 
@@ -65,7 +67,7 @@ Voici comment les intégrer [dans votre fichier CSS](https://openclassrooms.com/
 
 #### <u>MENTOR:</u>
 
-- [Solution Mentor](): dans le dossier "./", càd à la racine de la branche ___tp actuelle 
+- [Solution Mentor](https://github.com/achicyr/OC__frontend__P2/tree/___tp/solution_OC): dans le dossier "./", càd à la racine de la branche ___tp actuelle 
 - Résultat mentor: 
 ![i](https://raw.githubusercontent.com/achicyr/OC__frontend__P2/___tp/assets/resultat_mentor.png)
 
