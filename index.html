@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP cours OC:  Créez un site pas à pas</title>
+</head>
+<body>
+    
+    <!-- header>(hgroup#logoSlogan>img[src="assets/images/zozor_logo.png" alt=""]+h1{Zozor}+h2{Carnet de voyage})+menu#mainMenu>ul>(li>a[href="#"])*4 -->
+    <header>
+        <hgroup id="logoSlogan">
+            <img src="assets/images/zozor_logo.png" alt="logo zozor">
+            <h1>Zozor</h1>
+            <h2>Carnet de voyage</h2>
+        </hgroup>
+        <menu id="mainMenu">
+            <ul>
+                <li>
+                    <a href="#">ACCUEIL</a>
+                </li>
+                <li>
+                    <a href="#">BLOG</a>
+                </li>
+                <li>
+                    <a href="#">CV</a>
+                </li>
+                <li>
+                    <a href="#">CONTACT</a>
+                </li>
+            </ul>
+        </menu>
+    </header>
+    
+
+    <!-- nav>img[src="sanfrancisco.jpg" alt="bannière san francisco"]+p>span{Retour sur mes vacances au États-Unis...}+button{Voir l'article}>img[src="assets/images/flecheblanchedroite.png" alt="arrow"] -->
+    <nav id="banner">
+        <img src="sanfrancisco.jpg" alt="bannière san francisco">
+        <p>
+            <span>Retour sur mes vacances au États-Unis...</span>
+            <button>
+                <span>Voir l'article</span>
+                <img src="assets/images/flecheblanchedroite.png" alt="arrow">
+            </button>
+        </p>
+    </nav>
+    
+
+    <!-- main>(article>(h2>img[src="assets/images/ico_epingle.png" alt="epingle"]+span{JE SUIS UNE GRAND VOYAGEUR})+p{lorem}*3)+aside>h2{À PROPOS DE L'AUTEUR}+img[src="assets/images/zozor_classe.png" alt="auteur zozor"]+p{lorem}*2+ul>(li>img[src="" alt="sns-$"])*5 -->
+    <main>
+        <article id="main_post">
+            <h2>
+                <img src="assets/images/ico_epingle.png" alt="epingle">
+                <span>JE SUIS UNE GRAND VOYAGEUR</span>
+            </h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum doloremque consequuntur minus nostrum laborum, qui exercitationem corrupti suscipit fuga vel quis nobis omnis magnam sint ut rem cumque veniam doloribus?</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi quibusdam voluptatum delectus, dicta distinctio aliquid totam ipsum nisi perspiciatis facilis amet quas veniam unde natus quaerat perferendis? Nulla, consectetur aperiam.</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi quibusdam voluptatum delectus, dicta distinctio aliquid totam ipsum nisi perspiciatis facilis amet quas veniam unde natus quaerat perferendis? Nulla, consectetur aperiam.</p>
+        </article>
+        <aside id="about">
+            <h2>À PROPOS DE L'AUTEUR</h2>
+            <img src="assets/images/zozor_classe.png" alt="auteur zozor">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere consequatur fugiat eius aliquid totam doloremque, voluptates facilis obcaecati vero eum similique cumque in incidunt quam at iure quos repudiandae voluptatum.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere consequatur fugiat eius aliquid totam doloremque, voluptates facilis obcaecati vero eum similique cumque in incidunt quam at iure quos repudiandae voluptatum.</p>
+            <ul id="sns">
+                <li>
+                    <img src="assets/images/facebook.png" alt="sns-1">
+                </li>
+                <li>
+                    <img src="assets/images/twitter.png" alt="sns-2">
+                </li>
+                <li>
+                    <img src="assets/images/vimeo.png" alt="sns-3">
+                </li>
+                <li>
+                    <img src="assets/images/flickr.png" alt="sns-4">
+                </li>
+                <li>
+                    <img src="assets/images/rss.png" alt="sns-5">
+                </li>
+            </ul>
+        </aside>
+    </main>
+    
+
+    <footer>
+        <!-- section>h5{MES DERNIERS TWEET|MES PHOTOS|MES AMIS}+p{hiii haaaaaaaaaan !}*2 -->
+        <section>
+            <h5>MES DERNIERS TWEET</h5>
+            <p>hiii haaaaaaaaaan !</p>
+            <p>hiii haaaaaaaaaan !</p>
+        </section>
+        <!-- section>h5{MES PHOTOS}+ul>(li>img[src=".jpg" alt="footer photo $"])*4 -->
+        <section>
+            <h5>MES PHOTOS</h5>
+            <ul>
+                <li>
+                    <img src="assets/images/photo1.jpg" alt="footer photo 1">
+                </li>
+                <li>
+                    <img src="assets/images/photo2.jpg" alt="footer photo 2">
+                </li>
+                <li>
+                    <img src="assets/images/photo3.jpg" alt="footer photo 3">
+                </li>
+                <li>
+                    <img src="assets/images/photo4.jpg" alt="footer photo 4">
+                </li>
+            </ul>
+        </section>
+        <!-- section>h5{MES AMIS}+(ul>(li{Pupi le lapin})*4)*2 -->
+        <section>
+            <h5>MES AMIS</h5>
+            <ul>
+                <li>Pupi le lapin</li>
+                <li>Mr Baobab</li>
+                <li>Kaiwaii</li>
+                <li>Perceval.eu</li>
+            </ul>
+            <ul>
+                <li>Belette</li>
+                <li>Le concombre masqué</li>
+                <li>Ptit prince</li>
+                <li>Mr Fan</li>
+            </ul>
+        </section>
+
+    </footer>
+    
+    
+    
+</body>
+</html>
