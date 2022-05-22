@@ -2,6 +2,36 @@ body{
 
 }
 
+.fond0{background:url("assets/images/fond_jaune.png");}
+.fond1{background:url("assets/images/fond_jaune_.png");}
+.separateur{background:url("assets/images/separateur.png")}
+.left_arrow{background:url("assets/images/bulle.png")}
+.go_up{background:url("assets/images/ico_top.png")}
+.ombre{background:url("assets/images/ombre.png")}
+.fond_degrade{background:url("assets/images/fond_degraderouge.png")}
+.ul_puces{list-style-image: url("ico_liensexterne.png");}
+.main_font{font-family:"day_romanregular"}
+.secondary_font{font-family:"ballparkweiner"}
+.text_font{font-family:"Trebuchet MS"}
+
+
+
+
+@font-face {
+    font-family: 'day_romanregular';
+    src: url('dayrom-webfont.woff2') format('woff2'),
+         url('dayrom-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ballparkweiner';
+    src: url('ballpark-webfont.woff2') format('woff2'),
+         url('ballpark-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 
 /*---------------------------------*/
 /*---------------------------------*/
