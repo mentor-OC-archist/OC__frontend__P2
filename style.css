@@ -11,6 +11,12 @@ body>header,body>footer {
 body>nav,body>main {
     margin: 1.5em 3em;
 }
+h2,menu a{
+    font-family:day_romanregular;font-weight: normal;
+}
+menu,ul{
+    list-style: none;
+}
 
 
 
@@ -30,7 +36,7 @@ RÈGLES CHARTE GRAPHIQUE
 .fond_degrade{background:url("assets/images/fond_degraderouge.png") repeat-x;color:white;}
 .ul_puces{list-style-image: url("ico_liensexterne.png");}
 .main_font{font-family:"ballparkweiner"}
-.secondary_font{font-family:"day_romanregular"}
+.secondary_font{font-family:"day_romanregular";}
 .text_font{font-family:"trebuc"}
 
 
@@ -40,8 +46,12 @@ RÈGLES CHARTE GRAPHIQUE
 /*---------------------------------*/
 /*---------------------------------*/
 /*
-DIRECTIVES CSS
+DIRECTIVES & VARIABLES CSS
 */
+
+:root{
+    --aside_color: #6f6a63;
+}
 
 @font-face
 {
@@ -98,11 +108,9 @@ body>header>hgroup>h1{
     line-height: .5em;
 }
 body>header>hgroup>h2{
-    font-weight: normal;
     font-size: 1.3em;
 }
 body>header>menu{
-    list-style: none;
     display: flex;
     padding: 0;
     gap: 1em;
@@ -163,17 +171,38 @@ body>nav>p>button>img{}
 
 
 
-body>main{}
-body>main>article{}
-body>main>article>h2{}
-body>main>article>img{}
-body>main>article>p{}
-body>main>article>p>a{}
-body>main>aside{}
-body>main>aside>h2{}
+body>main{
+    display: flex;gap:20px;
+}
+body>main>article{
+    flex-basis:70%;
+}
+body>main>article>h2{
+    display:flex;align-items: center;gap:10px
+}
+body>main>article>h2>img{}
+body>main>article>h2>span{}
+body>main>article>p{text-align:justify;}
+body>main>article>p>a{color:brown;}
+body>main>aside{
+    flex-basis:25%;
+    margin-top: 10px;
+    background: var(--aside_color);
+    color:white;
+    border-radius:10px;
+    text-align:center;
+    padding:10px;
+    align-self: baseline;
+}
+body>main>aside>h2{font-size:1.3em;}
 body>main>aside>img{}
-body>main>aside>p{}
-body>main>aside>ul{}
+body>main>aside>p{text-align:justify;}
+body>main>aside>ul{
+    display: flex;
+    gap:10px;
+    padding:0;
+    justify-content:space-around;
+}
 body>main>aside>ul>li{}
 body>main>aside>ul>li>img{}
 
