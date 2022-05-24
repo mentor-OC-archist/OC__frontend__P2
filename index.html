@@ -7,30 +7,28 @@
     <title>TP cours OC:  Créez un site pas à pas</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="fond0 text_font">
     
     <!-- header>(hgroup#logoSlogan>img[src="assets/images/zozor_logo.png" alt=""]+h1{Zozor}+h2{Carnet de voyage})+menu#mainMenu>ul>(li>a[href="#"])*4 -->
-    <header>
+    <header class="separateur">
         <hgroup id="logoSlogan">
             <img src="assets/images/zozor_logo.png" alt="logo zozor">
-            <h1>Zozor</h1>
-            <h2>Carnet de voyage</h2>
+            <h1 class="main_font">Zozor</h1>
+            <h2 class="secondary_font">Carnet de voyage</h2>
         </hgroup>
-        <menu id="mainMenu">
-            <ul>
-                <li>
-                    <a href="#">ACCUEIL</a>
-                </li>
-                <li>
-                    <a href="#">BLOG</a>
-                </li>
-                <li>
-                    <a href="#">CV</a>
-                </li>
-                <li>
-                    <a href="#">CONTACT</a>
-                </li>
-            </ul>
+        <menu id="mainMenu" class="secondary_font">
+            <li>
+                <a href="#">ACCUEIL</a>
+            </li>
+            <li>
+                <a href="#">BLOG</a>
+            </li>
+            <li>
+                <a href="#">CV</a>
+            </li>
+            <li>
+                <a href="#">CONTACT</a>
+            </li>
         </menu>
     </header>
     
@@ -40,7 +38,7 @@
         <img src="sanfrancisco.jpg" alt="bannière san francisco">
         <p>
             <span>Retour sur mes vacances au États-Unis...</span>
-            <button>
+            <button class="fond_degrade">
                 <span>Voir l'article</span>
                 <img src="assets/images/flecheblanchedroite.png" alt="arrow">
             </button>
@@ -49,7 +47,7 @@
     
 
     <!-- main>(article>(h2>img[src="assets/images/ico_epingle.png" alt="epingle"]+span{JE SUIS UNE GRAND VOYAGEUR})+p{lorem}*3)+aside>h2{À PROPOS DE L'AUTEUR}+img[src="assets/images/zozor_classe.png" alt="auteur zozor"]+p{lorem}*2+ul>(li>img[src="" alt="sns-$"])*5 -->
-    <main>
+    <main class="separateur go_up">
         <article id="main_post">
             <h2>
                 <img src="assets/images/ico_epingle.png" alt="epingle">
@@ -59,7 +57,7 @@
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi quibusdam voluptatum delectus, dicta distinctio aliquid totam ipsum nisi perspiciatis facilis amet quas veniam unde natus quaerat perferendis? Nulla, consectetur aperiam.</p>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi quibusdam voluptatum delectus, dicta distinctio aliquid totam ipsum nisi perspiciatis facilis amet quas veniam unde natus quaerat perferendis? Nulla, consectetur aperiam.</p>
         </article>
-        <aside id="about">
+        <aside id="about left_arrow">
             <h2>À PROPOS DE L'AUTEUR</h2>
             <img src="assets/images/zozor_classe.png" alt="auteur zozor">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere consequatur fugiat eius aliquid totam doloremque, voluptates facilis obcaecati vero eum similique cumque in incidunt quam at iure quos repudiandae voluptatum.</p>
@@ -113,13 +111,13 @@
         <!-- section>h5{MES AMIS}+(ul>(li{Pupi le lapin})*4)*2 -->
         <section>
             <h5>MES AMIS</h5>
-            <ul>
+            <ul class="ul_puces">
                 <li>Pupi le lapin</li>
                 <li>Mr Baobab</li>
                 <li>Kaiwaii</li>
                 <li>Perceval.eu</li>
             </ul>
-            <ul>
+            <ul class="ul_puces">
                 <li>Belette</li>
                 <li>Le concombre masqué</li>
                 <li>Ptit prince</li>
