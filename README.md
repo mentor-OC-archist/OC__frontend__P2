@@ -27,16 +27,16 @@
 2. Préciser chacun des blocs défini en 1),
 3. Construire le squelette HTML de la page (en ajoutant des ID et class à vos balises de block et balises spécifiques) [solution HTML d'OC](https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3/1606688-tp-creez-un-site-pas-a-pas#/id/r-1611503),
 4. Connecter la page HTML avec un fichier de style CSS,
-5. Mapper le contenu HTML en selecteur CSS de spécificité de niveau 1 (sélecteurs de balise -> sans .class ni #ID (pseudo-éléments autorisés (même si compliqués à placer en fait))),
-6. Définition des [styles principaux (OC)](https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3/1606688-tp-creez-un-site-pas-a-pas#/id/r-1611544) (càd ceux présents dans la charte graphique ou dans le besoin client (police de caractère, couleur, images de fond, dimensiosn et etc...)),
-6. Enfin, mettre en forme votre document HTML bloc par bloc:
+5. Définition des [styles principaux (OC)](https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3/1606688-tp-creez-un-site-pas-a-pas#/id/r-1611544) (càd ceux présents dans la charte graphique ou dans le besoin client (police de caractère, couleur, images de fond, dimensiosn et etc...)),
+6. Mapper le contenu HTML en selecteur CSS de spécificité de niveau 1 (sélecteurs de balise -> sans .class ni #ID (pseudo-éléments autorisés (même si compliqués à placer en fait))),
+7. Enfin, mettre en forme votre document HTML bloc par bloc:
     - [En-tête et liens de navigation (OC)](https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3/1606688-tp-creez-un-site-pas-a-pas#/id/r-1611567)
     - [La bannière (OC)](https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3/1606688-tp-creez-un-site-pas-a-pas#/id/r-1611596)
     - [Le corps (OC)](https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3/1606688-tp-creez-un-site-pas-a-pas#/id/r-1611604)
     - [Le pied de page (OC)](https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3/1606688-tp-creez-un-site-pas-a-pas#/id/r-1611618)
 
 #### <u>LES POLICES DE CARACTÈRE UTILISÉES:</u>
-- Trebuchet MS  (police courante) ;
+- Trebuchet MS  (police courante) il faudra la télécharger soit-même (elle n'est pas incluse dans les ressources proposée): [ici par exemple](https://www.cufonfonts.com/font/trebuchet-ms-2);
 - BallparkWeiner  (police exotique) ;
 - Day Roman  (police exotique).
 
@@ -59,15 +59,15 @@ Par soucis simplicité, on utilise pour se faire un générateur de police, dont
 # SOLUTIONS:
 
 #### <u>OC:</u>
-- [Solution OC](): dans le dossier "./solutions_OC/" de la branche ___tp actuelle
+- [Solution OC](https://github.com/achicyr/OC__frontend__P2/tree/___tp/solution_OC): dans le dossier "./solutions_OC/" de la branche ___tp actuelle
 
-- (je tiens à préciser que le résultat proposé par OC ne correspond pas à la maquette elle-même, en effet une différence flagrante existe au niveau des bordures de la page....)
+- je tiens à préciser que le résultat proposé par OC ne correspond pas à la maquette elle-même, en effet une différence flagrante existe au niveau des bordures de la page: ....
 ![i](https://raw.githubusercontent.com/achicyr/OC__frontend__P2/___tp/assets/resultat_OC.png)
 
 
 #### <u>MENTOR:</u>
 
-- [Solution Mentor](https://github.com/achicyr/OC__frontend__P2/tree/___tp/solution_OC): dans le dossier "./", càd à la racine de la branche ___tp actuelle 
+- [Solution Mentor](https://github.com/achicyr/OC__frontend__P2/tree/___tp/): dans le dossier "./", càd à la racine de la branche ___tp actuelle 
 - Résultat mentor: 
 ![i](https://raw.githubusercontent.com/achicyr/OC__frontend__P2/___tp/assets/resultat_mentor.png)
 
@@ -81,7 +81,10 @@ Par soucis simplicité, on utilise pour se faire un générateur de police, dont
 ## <u>VIDÉOS YOUTUBE:</u>
 
 - [Intro du TP](https://www.youtube.com/watch?v=)
-- [Solution StepByStep](https://www.youtube.com/watch?v=)
+- [Solution StepByStep 1/4](https://www.youtube.com/watch?v=)
+- [Solution StepByStep 2/4](https://www.youtube.com/watch?v=)
+- [Solution StepByStep 3/4](https://www.youtube.com/watch?v=)
+- [Solution StepByStep 4/4](https://www.youtube.com/watch?v=)
 
 
 
