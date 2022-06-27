@@ -1,3 +1,36 @@
+# [OC PROJET 2 DU PARCOURS "DÉVELOPPEUR-WEB": Transformez une maquette en site web avec HTML & CSS](https://openclassrooms.com/fr/projects/transformez-une-maquette-en-site-web-avec-html-css/assignment)
+# [COURS: Mettez en place votre environnement front-end](https://openclassrooms.com/fr/courses/6943241-mettez-en-place-votre-environnement-front-end)
+
+--- 
+
+## POINTS CLÉS:
+- [Le devtool du browser(navigateur-web)](https://openclassrooms.com/fr/courses/6943241-mettez-en-place-votre-environnement-front-end/7056021-testez-votre-code-avec-les-devtools-chrome-et-firefox):
+    - inspecteur html 
+    - inspecteur de style
+    - console
+    - mode mobile/desktop/etc
+    - éditeur de texte et autres fonctionnalités
+- [VSCode](https://openclassrooms.com/fr/courses/6943241-mettez-en-place-votre-environnement-front-end/7117191-explorez-les-fonctionnalites-de-visual-studio-code):
+    - Thèmes
+    - Setting (roue denté)
+    - Get started page (menu>Help)
+    - Pallette de commande
+    - Keyboard shortcuts
+    - le termminal intégré
+    - Git
+    - Plugins
+
+## LES REPOSITORIES(2):
+- [Base pour le cours](https://github.com/OpenClassrooms-Student-Center/5543061-ecrivez-du-javascript-pour-le-web-activity)
+- [Base pour le quiz](https://github.com/willehpeh/setup-development-environment)
+    - [Quiz](https://openclassrooms.com/fr/courses/6943241-mettez-en-place-votre-environnement-front-end/exercises/3963)
+
+
+---
+---
+---
+
+
 # OC PROJET 2 DU PARCOURS "DÉVELOPPEUR-WEB": 
 Vous trouverez dans ce repository des branches dédiées/spécifiques aux différents sujets abordés/évoqués dans ce P2:
 - [De petits exercices bien utiles pour mettre en pratique les bases du codage web]( "Cette exercice concerne le cours \"Apprenez à créer votre site web avec HTML5 et CSS3\""): petits exos
