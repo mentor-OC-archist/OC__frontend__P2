@@ -1,3 +1,145 @@
+# OC PROJET#2 [Transformez une maquette en site web avec HTML & CSS](https://openclassrooms.com/fr/projects/transformez-une-maquette-en-site-web-avec-html-css/assignment) DU PARCOURS ["DÉVELOPPEUR-WEB"](https://openclassrooms.com/fr/paths/185-developpeur-web#path-tabs): 
+
+Une vidéo d'introduction du projet par le mentor:
+
+[![INTRODUCTION MENTOR](https://raw.githubusercontent.com/achicyr/OC___frontend/master/assets/video_background.jpg)](https://www.youtube.com/watch?v=XXXXXXXXXXXXXXXXXXXXXXXXXXXXX&list=PLWZ83QCrp6NsligPZowq4TBh03H4Ufy9w&ab_channel=Archist111 "Introduction du P2 par le mentor")
+
+[![DÉMONSTRATION MENTOR PCK66](https://raw.githubusercontent.com/achicyr/OC___frontend/master/assets/video_background.jpg)](https://www.youtube.com/watch?v=1x-N3hHdzfo&t=5s&ab_channel=PCK66 "Démonstration du P2 par le mentor PCK66")
+
+
+## LES ÉTAPES DE L'INTRODUCTION: 
+1. Créer le repo sur github (y inclure par défaut un fichier README)
+2. cloner le repo sur votre PC (dans votre espace de développement dédié à la formation OC)
+3. Éditer le README.md (copier le titre du projet, y faire un lien vers le projet, ajouter les images des maquettes (fournis et créées))
+4. git add commit push, puis créer branch "hotfix" et "develop", et basculer sur develop
+5. importer les [ressources de la mission du projet](https://github.com/achicyr/OC__frontend__P2#user-content-les-ressources-a-intégrer-a-la-mission-du-projet-3) dans n dossier "/assets"
+6. créer les fichier "/index.html" et "/css/style.css"
+
+## LES LIENS EN RAPPORT AVEC LA VIDÉO D'INTRODUCTION: 
+
+- lien 1
+
+****
+
+# MISSION REVISITÉ: 
+
+## LES RESSOURCES À INTÉGRER À LA MISSION DU PROJET (3):
+- [Étapes clés – STEP BY STEP](https://course.oc-static.com/projects/Front-End+V2/P2+HTML+%26+CSS/DW+P2+V2+Etapes+cles.pdf)
+- [Le brief client](https://course.oc-static.com/projects/Front-End+V2/P2+HTML+%26+CSS/DW+P2+-+Specifications+techniques+et+fonctionnelles.pdf)
+- [Le dossier "assets" a intégrer dans votre codebase](https://course.oc-static.com/projects/Front-End+V2/P2+HTML+%26+CSS/DW+P2+-+Ressources+Booki+FR.zip)
+
+---
+
+## CI-APRÈS, JE VAIS: 
+1. [Lister les liens présents dans les différents cours du projet](https://github.com/achicyr/OC__frontend__P2#user-content-liens-necessaires),
+2. [Reformuler la mission sous forme de liste à puce](https://github.com/achicyr/OC__frontend__P2#user-content-resume-mentor),
+3. [Fournir les liens & ressources que j'ai assemblé & créé (en tant que mentor) pour ce projet (mindmap,favoris,extensions VSCode,playlists youtube,lein web, etc..)](https://github.com/achicyr/OC__frontend__P2#user-content-liens-mentor),
+4. [Enfin, fournir un step-by-step, ilustré en vidéo, et présenté sous forme de liste à puce](https://github.com/achicyr/OC__frontend__P2#user-content-step-by-step)
+
+### I) LIENS UTILES (DES COURS DU PROJET): 
+
+### II) RÉSUMÉ MENTOR: 
+
+### III) RESSOURCES MENTOR: 
+   - [Favoris browser repository](???)
+   ##### MINDMAPS: 
+       - [HTML](???)
+       - [CSS](???)
+       - [...autres...](???)
+   ##### Playlists video: 
+       - [???](???)
+   ##### OS Software (Windows): 
+       - [VSCode](https://code.visualstudio.com/download)
+       - [GitHub](https://git-scm.com/download/win) 
+       - [GitHubDesktop](https://desktop.github.com/)
+       - [GoogleDrive](https://drive.google.com/drive/my-drive)
+   ##### WebSites
+       - [CSS-tricks](https://css-tricks.com/almanac/)
+       - [MDN](https://developer.mozilla.org/fr/)
+       - [W3School](https://www.w3schools.com/)
+       - [google docs & sheets](https://docs.google.com/spreadsheets/u/0/)
+       - [github](https://github.com/)
+   ##### Browser extensions (Chrome): 
+       - [Web Developer](https://chrome.google.com/webstore/detail/web-developer/bfbameneiokkgbdmiekhjnmfkcnldhhm)
+       - [Grepper](https://chrome.google.com/webstore/detail/grepper/amaaokahonnfjjemodnpmeenfpnnbkco)
+       - [Markdown Preview Plus](https://chrome.google.com/webstore/detail/markdown-preview-plus/febilkbfcbhebfnokafefeacimjdckgl)
+       - [Éditeur Office pour Docs, Sheets et Slides](https://chrome.google.com/webstore/detail/office-editing-for-docs-s/gbkeegbaiigmenfmjfclcdgdpimamgkj)
+       - [Code Formatter](https://chrome.google.com/webstore/detail/code-formatter/deecjbhfakhcegonhediiniinjdgmfie)
+       - [ColorZilla](https://chrome.google.com/webstore/detail/colorzilla/bhlhnicpbhignbdhedgjhgdocnmhomnp)
+       - [countDown]
+       - [Marinara : Assistant Pomodoro](https://chrome.google.com/webstore/detail/marinara-pomodoro%C2%AE-assist/lojgmehidjdhhbmpjfamhpkpodfcodef)
+       - [CSSViewer](https://chrome.google.com/webstore/detail/cssviewer/ggfgijbpiheegefliciemofobhmofgce)
+       - [Dimensions](https://chrome.google.com/webstore/detail/dimensions/baocaagndhipibgklemoalmkljaimfdj)
+       ###### GIT:
+           - [Enhanced GitHub](https://chrome.google.com/webstore/detail/enhanced-github/anlikcnbgdeidpacdbdljnabclhahhmd)
+           - [GitHub Code Folding](https://chrome.google.com/webstore/detail/github-code-folding/lefcpjbffalgdcdgidjdnmabfenecjdf)
+           - [Git Cheat Sheet](https://chrome.google.com/webstore/detail/git-cheat-sheet/mjdmgoiobnbkfcfjcceaodlcodhpokgn)
+           - [Octotree - GitHub code tree](https://chrome.google.com/webstore/detail/octotree-github-code-tree/bkhaagjahfmjljalopjnoealnfndnagc)
+           - [chrome web store](https://chrome.google.com/webstore/search/github?_category=extensions)
+       ###### ANGLAIS:
+           - [Google Dictionary (by Google)](chrome-extension://mgijmajocgfcbeboacabfgobmjgjcoja/options.htmlhttps://chrome.google.com/webstore/detail/google-dictionary-by-goog/mgijmajocgfcbeboacabfgobmjgjcoja)
+           - [Google Traduction](https://chrome.google.com/webstore/detail/google-translate/aapbdbdomjkkjkaonfhkkikfgjllcleb)
+   ##### VSCode plugins: 
+   je vous conseille d'installer un nouveau plugin (ou un groupe commun de plugins) chaque jour, afin in fine de comprendre le role de chacun: 
+   
+       ###### SHORTCUTS TO KNOWS: 
+           - [documentation VSCode](https://code.visualstudio.com/docs/getstarted/keybindings#_keyboard-shortcuts-reference)
+           - [cheatsheet](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf)
+           - [game](https://www.shortcutfoo.com/app/dojos/vscode-win)
+           - CTRL+d ; CTRL+f2
+           - CTRL+x ; CTRL+c ; CTRL+v
+           - CTRL+b ; CTRL+1~9
+           - CTRL+p ; CTRL+Shift+p ; CTRL+, ; CTRL+k,CTRL+s
+           - CTRL+k,CTRL+f ; 
+           - .....
+       - [Live Preview](https://marketplace.visualstudio.com/items?itemName=ms-vscode.live-server)
+       - [French Language Pack for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=MS-CEINTL.vscode-language-pack-fr);
+       - [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
+       - [Live Share](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare)
+       - [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
+       - [VS Code CSS Comments](https://marketplace.visualstudio.com/items?itemName=ashhitch.vs-code-css-comments)
+       - [VS HTML to CSS](https://marketplace.visualstudio.com/items?itemName=neptunedesign.vs-html-to-css)
+       - [CSS Flexbox Cheatsheet](https://marketplace.visualstudio.com/items?itemName=dzhavat.css-flexbox-cheatsheet)
+       - [CSS Preview](https://marketplace.visualstudio.com/items?itemName=sandorengholm.csspreview)
+       - [CSS Alphabetize](https://marketplace.visualstudio.com/items?itemName=PolymerMallard.css-alphabetize)
+       - [CSS Navigation](https://marketplace.visualstudio.com/items?itemName=pucelle.vscode-css-navigation)
+       - [HTML CSS Support](https://marketplace.visualstudio.com/items?itemName=ecmel.vscode-html-css)
+       - [cdnjs](https://marketplace.visualstudio.com/items?itemName=JakeWilson.vscode-cdnjs)
+       - [CSS Media Query Snippets](https://marketplace.visualstudio.com/items?itemName=AjithGopi.css-snippets)
+       - [Autoprefixer](https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-autoprefixer)
+           - [css-auto-prefix](https://marketplace.visualstudio.com/items?itemName=sporiley.css-auto-prefix)
+       ###### ICONES: 
+           - [Font Awesome Auto-complete & Preview](https://marketplace.visualstudio.com/items?itemName=Janne252.fontawesome-autocomplete)
+           - [Font Awesome Gallery](https://marketplace.visualstudio.com/items?itemName=tomasvergara.vscode-fontawesome-gallery)
+           - [icons](https://marketplace.visualstudio.com/items?itemName=tal7aouy.icons)
+           - [file-icons](https://marketplace.visualstudio.com/items?itemName=file-icons.file-icons)
+       ###### GIT: 
+           - [Git History](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory)
+           - [Git Graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph)
+           - [Start git-bash](https://marketplace.visualstudio.com/items?itemName=McCarter.start-git-bash)
+           - [Open in GitHub Desktop](https://marketplace.visualstudio.com/items?itemName=wraith13.open-in-github-desktop)
+       ###### BRACKETS: 
+           - [Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=BracketPairColorDLW.bracket-pair-color-dlw)
+           - [Bracket selector](https://marketplace.visualstudio.com/items?itemName=chunsen.bracket-select)
+           - [Bracket lens](https://marketplace.visualstudio.com/items?itemName=wraith13.bracket-lens)
+           - [Bracket jumper](https://marketplace.visualstudio.com/items?itemName=sashaweiss.bracket-jumper)
+       ###### SNIPPETS: 
+           - [Snippets](https://marketplace.visualstudio.com/items?itemName=tahabasri.snippets)
+           - [Copy As Snippet](https://marketplace.visualstudio.com/items?itemName=Thinker.copy-as-snippet)
+       <!-- - [P2: GitLens]() -->
+
+### IV)STEP-BY-STEP: 
+[Step-by-step ilustré en vidéo](https://www.youtube.com/watch?v=XXXXXXXXXXXXXXXXXXXXXXXXXXXXX&list=PLWZ83QCrp6NsligPZowq4TBh03H4Ufy9w&ab_channel=Archist111)
+
+
+---
+---
+---
+---
+---
+---
+        
+
 # OC PROJET 2 DU PARCOURS "DÉVELOPPEUR-WEB": 
 Vous trouverez dans ce repository des branches dédiées/spécifiques aux différents sujets abordés/évoqués dans ce P2:
 - [De petits exercices bien utiles pour mettre en pratique les bases du codage web]( "Cette exercice concerne le cours \"Apprenez à créer votre site web avec HTML5 et CSS3\""): petits exos
@@ -14,15 +156,12 @@ Vous trouverez dans ce repository des branches dédiées/spécifiques aux diffé
 
 ---
 
-# [MISSION: Transformez une maquette en site web avec HTML & CSS](https://openclassrooms.com/fr/projects/transformez-une-maquette-en-site-web-avec-html-css/assignment)
-OC Projet 2 du parcours frontend-dévelopeur: [lien](https://openclassrooms.com/fr/projects/transformez-une-maquette-en-site-web-avec-html-css/assignment "mission P2")
-
----
-
 ## LES COURS DU PROJETS (2): (dans l'ordre d'importance)
 - [liste des cours](https://openclassrooms.com/fr/projects/transformez-une-maquette-en-site-web-avec-html-css/courses)
 - [Mettez en place votre environnement front-end](https://openclassrooms.com/fr/courses/6943241-mettez-en-place-votre-environnement-front-end)
 - [Apprenez à créer votre site web avec HTML5 et CSS3](https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3)
+
+## LES COURS ALTERNATIFS: 
 
 ## LES RESSOURCES DU PROJET:
 - [Liste des ressources](https://openclassrooms.com/fr/projects/transformez-une-maquette-en-site-web-avec-html-css/resources)
@@ -51,7 +190,7 @@ OC Projet 2 du parcours frontend-dévelopeur: [lien](https://openclassrooms.com/
 
 ---
 
-## LES RESSOURCES À INTÉGRER AU PROJET (3):
+## LES RESSOURCES À INTÉGRER À LA MISSION DU PROJET (3):
 - [Étapes clés – STEP BY STEP](https://course.oc-static.com/projects/Front-End+V2/P2+HTML+%26+CSS/DW+P2+V2+Etapes+cles.pdf)
 - [Le brief client](https://course.oc-static.com/projects/Front-End+V2/P2+HTML+%26+CSS/DW+P2+-+Specifications+techniques+et+fonctionnelles.pdf)
 - [Le dossier "assets" a intégrer dans votre codebase](https://course.oc-static.com/projects/Front-End+V2/P2+HTML+%26+CSS/DW+P2+-+Ressources+Booki+FR.zip)
