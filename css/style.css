@@ -1,0 +1,271 @@
+/*-------------- IMPORTS -------------*/
+
+
+
+/*-------------- RESET TAG'S STYLE  -------------*/
+body{padding:0;margin:0;}
+img{object-fit: contain;}
+a{text-decoration: none;color:inherit}
+
+
+/*-------------- INTEGRETED GRAPHIC-CHART  -------------*/
+:root{
+    --primary-text: #000;
+    --secondary-text: #fff;
+    --ternary-text: #575757;
+    --last-text: #BDAED8;
+
+    --bg-footer: #5B359D;
+
+    font-family: roboto;
+
+    font-size:18px;
+    --M: 18px;
+    --S: 15px;
+    --L: 24px;
+    --XL: 33px;
+}
+
+/*-------------- RESPONSIVE  -------------*/
+/****TABLETTE****/
+@media screen and (max-width: 992px){
+
+}
+/****MOBILE****/
+@media screen and (max-width: 768px){
+
+}
+
+
+
+
+
+
+/*-------------- STARTING STYLE (CSS) CODES  -------------*/
+.white{color:white;}
+
+/*-----------------------------------------------------------*\
+   ----------------------- #HEADER BLOCK-----------------------
+\*------------------------------------------------------------*/
+
+header{
+   display: flex;
+   justify-content: space-between;
+}
+header>img{
+
+}
+header>ul{
+   display: flex;
+   align-items: center;
+   list-style-type: none;
+   gap: 50px;
+   padding: 0 30px;
+}
+header>ul>li{
+
+}
+header>ul>li>a{
+   color:var(--primary-text);
+}
+
+/****TABLETTE****/
+@media screen and (max-width: 992px){
+
+}
+/****MOBILE****/
+@media screen and (max-width: 768px){
+   header>img{width:150px;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-----------------------------------------------------------*\
+   ----------------------- #NAV BLOCK-----------------------
+\*------------------------------------------------------------*/
+nav{
+   padding: 300px 0;
+   text-align: center;
+   background: url("../assets/images/backgroung_image.jpg") center center;
+}
+nav>img{
+   width: 150px;
+}
+nav>h1{
+   font-size:var(--XL);
+}
+
+
+@media screen and (max-width: 992px){
+
+}
+/****MOBILE****/
+@media screen and (max-width: 768px){
+   nav{padding:150px;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-----------------------------------------------------------*\
+   ----------------------- #MAIN BLOCK-----------------------
+\*------------------------------------------------------------*/
+
+main{
+   text-align: center;
+}
+main>p, main>ul h2, main>blockquote>p
+{font-size: var(--L);}
+main>p, main>blockquote>p
+{color: var(--ternary-text);}
+main>*{
+   margin: 0 auto;
+}
+main>p{
+   width:80%;
+   margin: 30px auto;
+}
+main>ul{
+   width:80%;
+   list-style-type: none;
+   display: flex;
+   gap: 50px;
+}
+main>ul>li{
+
+}
+main>ul>li>img{
+
+}
+main>ul>li>h2{
+   font-weight: 400;
+}
+main>ul>li>p{
+   font-size: var(--S);
+   font-weight: bold;
+}
+main>blockquote{
+   width:50%;
+}
+main>blockquote>p{
+
+}
+main>blockquote>cite{
+   font-weight: 100;
+   font-style: normal;
+}
+
+
+
+/*-------------- RESPONSIVE  -------------*/
+/****TABLETTE****/
+@media screen and (max-width: 992px){
+
+}
+/****MOBILE****/
+@media screen and (max-width: 768px){
+   main>ul{display: block;}
+   main>blockquote{width:80%;margin: 30px auto;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*-----------------------------------------------------------*\
+   ----------------------- #FOOTER BLOCK-----------------------
+\*------------------------------------------------------------*/
+footer{
+   background: var(--bg-footer);
+   padding: 30px 0;
+   color: var(--secondary-text)
+}
+footer>*{padding:10px;margin:0;}
+footer>p{
+   font-weight: bold;
+   font-size: var(--S);
+   text-align: center;
+}
+footer>p.sns{
+   font-size: var(--XL);
+   color: var(--last-text);
+}
+footer>p.sns>i:nth-of-type(2){
+   margin: 0 50px;
+}
+footer>ul{
+   display: flex;
+   justify-content: space-around;
+   list-style-type: none;
+}
+footer>ul>li{
+
+}
+footer>ul>li>h4{
+   color: var(--last-text);
+   font-weight: 500;
+}
+footer>ul>li>h4+ul{
+   list-style-type: disc;
+}
+footer>ul>li:last-of-type>h4+ul{
+   list-style-type: none;
+}
+footer>ul>li>h4+ul>li{
+   
+}
+footer>ul>li>h4+ul>li>a{
+
+}
+
+/****TABLETTE****/
+@media screen and (max-width: 992px){
+
+}
+/****MOBILE****/
+@media screen and (max-width: 768px){
+   footer{text-align: center;}
+   footer>ul{display: block;}
+   footer:not(#pound)>ul ul{list-style-type: none;padding:0;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
