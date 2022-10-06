@@ -1,0 +1,3 @@
+[submodule "web-developer-cyril"]
+	path = web-developer-cyril
+	url = git@github.com:mentor-OC-archist/web-developer-cyril.git
