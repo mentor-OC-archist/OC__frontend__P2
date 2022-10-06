@@ -1,0 +1,376 @@
+/*-------------- IMPORTS -------------*/
+/* Définition des polices personnalisées */
+
+@font-face
+{
+    font-family: 'BallparkWeiner';
+    src: url('../polices/ballpark.eot');
+    src: url('../polices/ballpark.eot?#iefix') format('embedded-opentype'),
+         url('../polices/ballpark.woff') format('woff'),
+         url('../polices/ballpark.ttf') format('truetype'),
+         url('../polices/ballpark.svg#BallparkWeiner') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face
+{
+    font-family: 'Dayrom';
+    src: url('../polices/dayrom.eot');
+    src: url('../polices/dayrom.eot?#iefix') format('embedded-opentype'),
+         url('../polices/dayrom.woff') format('woff'),
+         url('../polices/dayrom.ttf') format('truetype'),
+         url('../polices/dayrom.svg#Dayrom') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face
+{
+    font-family: 'trebuchet';
+    src: url('../polices/trebuc.woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/*-------------- INTEGRETED GRAPHIC-CHART  -------------*/
+:root{
+    --primary-text:#000;
+    --secondary-text:#994142;
+    --ternary-text:#C6C4C1;
+
+    --main-gb: #F6EACC;
+    --aside-gb: #6E6963;
+
+    font-size:16px;
+    --fsize_h1: 42px;
+    --fsize_h2: 20px;
+    --fsize_titre: 22px;
+    --fsize_footer: 18px;
+
+    --font-oridnary: 'trebuchet';
+    --font-logo: 'BallparkWeiner';
+    --font-titles: 'Dayrom';
+}
+
+
+/*-------------- RESET TAG'S STYLE  -------------*/
+ul,ol,menu{padding:0;margin:0;list-style-type: none;}
+a{text-decoration: none;color: var(--primary-text);}
+img{object-fit: contain;}
+*{box-sizing: border-box;}
+body{
+    margin:0;
+    padding:0;
+    color: var(--primary-text);
+    font-family: var(--font-oridnary);
+    background: url(../images/fond_jaune.png);
+}
+body>*{
+    padding:0 50px;
+}
+h1,h2,h3{margin: 0;}
+h1{
+    font-family: var(--font-logo);
+    font-size: var(--fsize_h1);
+    font-weight: 500;
+}
+h2{
+    font-family: var(--font-titles);
+    font-size: var(--fsize_h2);
+    font-weight: 500;
+}
+h3, h4, header>menu>li>a{
+    font-family: var(--font-titles);
+    font-size: var(--fsize_titre);
+    font-weight:500;
+}
+h4{
+    font-size: var(--fsize_footer);
+}
+header menu a:hover,
+header menu a.active,
+main a, 
+footer ul#bordo{
+    color: var(--secondary-text);
+}
+header{border-bottom:solid transparent;}
+footer{border-top:solid transparent;}
+header, footer{
+    border-image: url(../images/separateur.png) 30;
+}
+button#gradient{
+    background: url(../images/fond_degraderouge.png);
+    height:29px;
+}
+button#gradient:after{
+    content:"";
+    background: url(../images/flecheblanchedroite.png);
+    width:7px;
+    height:11px;
+}
+h3#titre_epingle:before{
+    content:"";
+    background: url(../images/ico_epingle.png);
+    display: block;
+    width:43px;
+    height:47px;
+}
+main{background:var(--main-bg);}
+aside{
+    background:var(--aside-gb);
+    color: var(--ternary-text);
+}
+aside:after{
+    content:"";
+    background: url(../images/bulle.png);
+    width: 12px;
+    height: 17px;
+    display: block;
+    position: absolute;
+    top:40%;
+    left:-12px;
+}
+a.fb{background: url(../images/facebook.png);}
+a.tw{background: url(../images/twitter.png);}
+a.vi{background: url(../images/vimeo.png);}
+a.fl{background: url(../images/flickr.png);}
+a.rs{background: url(../images/rss.png);}
+
+footer:before{
+    content:"";
+    background: url(../images/ombre.png);
+    position: absolute;
+    top:0;
+    left: 0;
+    width:100%;
+    height:14px;
+}
+footer:after{
+    content:"";
+    background: url(../images/ico_top.png);
+    position: absolute;
+    top:0;
+    left: calc(50% - 27px);
+    width:54px;
+    height:30px;
+}
+footer li{
+    font-size: var(--fsize_footer);
+}
+footer ul#bordo{
+    list-style-image: url(../images/ico_liensexterne.png);
+}
+
+
+
+
+
+
+
+/*-------------- STARTING STYLE (CSS) CODES  -------------*/
+
+
+/*-----------------------------------------------------------*\
+   ----------------------- #HEADER BLOCK-----------------------
+\*------------------------------------------------------------*/
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+header>hgroup {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 165px;
+}
+header>hgroup>img {
+    margin-bottom: 10px;
+}
+header>hgroup>h1 {
+    align-self: end;
+    height: 30px;
+}
+header>hgroup>h2 {
+    width: 100%;
+}
+header>menu{
+    display: flex;
+    gap:20px;
+}
+header>menu>li{
+
+}
+header>menu>li>a{
+    
+}
+header>menu>li>a:hover{
+    text-decoration: underline;
+}
+
+
+
+
+
+/*-----------------------------------------------------------*\
+   ----------------------- #NAV BLOCK-----------------------
+\*------------------------------------------------------------*/
+nav{
+    position: relative;
+    margin-top:20px;
+}
+nav>img{
+    width: 100%;
+    display: block;
+    border-radius: 5px;
+    overflow: hidden;
+}
+nav>div{
+    position:absolute;
+    bottom:0;
+    left:50px;
+    width: calc(100% - 100px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(0,0,0,.5);
+    color:white;
+    padding: 10px 5px;
+    border-radius: 0 0 5px 5px;
+    overflow: hidden;
+}
+nav>div>span{
+
+}
+nav>div>span+button{
+    color:white;
+    border-radius: 5px;;
+    border:none;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+nav>div>span+button>span{
+
+}
+
+
+
+
+
+
+
+/*-----------------------------------------------------------*\
+   ----------------------- #MAIN BLOCK-----------------------
+\*------------------------------------------------------------*/
+main{
+    position: relative;
+    margin-top:20px;
+}
+main p{
+    text-align: justify;
+}
+main>article{
+    width:65%;
+    min-height: 550px;
+}
+main>article>h3{
+    display: flex;
+    gap: 20px;
+}
+main>article>h3>span{
+    align-self: end;
+}
+main>article>p{
+
+}
+main>article>p>a{
+
+}
+main>aside{
+    position: absolute;
+    width:30%;
+    top:0;
+    right:50px;
+    border-radius:10px;
+    padding:20px 10px 10px;
+    background:var(--aside-gb);
+    color:var(--ternary-text);
+}
+main>aside>h3{
+    text-align: center;
+}
+main>aside>img{
+    display: block;
+    margin:20px auto;
+}
+main>aside>p{
+
+}
+main>aside>div{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+main>aside>div>a{
+    width: 42px;
+    height: 42px;
+    display: block;
+}
+
+
+
+
+
+/*-----------------------------------------------------------*\
+   ----------------------- #ASIDE BLOCK-----------------------
+\*------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+/*-----------------------------------------------------------*\
+   ----------------------- #FOOTER BLOCK-----------------------
+\*------------------------------------------------------------*/
+footer{
+    display: flex;
+    position: relative;
+    padding-bottom:20px;
+}
+footer img{
+    border:1px solid;
+}
+footer>section{
+    width:100%;
+}
+footer>section>h4{
+
+}
+footer>section>p{
+
+}
+footer>section>ul#bordo{
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+footer>section>ul{
+    display: flex;
+    gap:10px;
+}
+footer>section>ul>li{
+
+}
+footer>section>ul>li>img{
+
+}
+
+
+
+
+

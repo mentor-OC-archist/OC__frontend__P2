@@ -1,0 +1,8 @@
+
+    - Intégrer une spécification trzchniue au sein de sa codebase, consiste à l'intégrer dans son document HTML puis dans 
+        son fichier de style CSS
+    - nous ne voyons pas réellement ce que c'est qu'une spécification technique  dans ce TP, mais grossomodo c'est généralelent
+        un document PDF résumant la ou les réunion entre un prestataire de service et un client, il retrace le besoin client et l'expertise du prestataire
+    - en HTML il se déroule en 2 temp:
+        - 1er temps, il s'agit intégrer des méta-données au docuemtn html. Donc cela se passe essentiellement dan,s la balise head,mais cela peut aussi être des attribut de balise ça et là
+        - en 2nd, il s'agit d'utiliser des commentaire pour préparer le document html à utiliser les ressources. c'est une étape qui permet autant de mieux comprendre les ressources, que de gagner de temps et s'éviter des erreurs

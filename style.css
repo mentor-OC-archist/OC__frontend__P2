@@ -30,7 +30,7 @@ RÈGLES CHARTE GRAPHIQUE
 
 .fond0{background:url("assets/images/fond_jaune.png");}
 /* .fond1{background:url("assets/images/fond_jaune_.png");} */
-.separateur{background-image:url("assets/images/separateur.png");}
+.separateur{border-image:url("assets/images/separateur.png") 30;}
 .left_arrow:before{content:"";width:20px;height:20px;background:url("assets/images/bulle.png")}
 .go_up:after{content:"";width:54px;height:30px;margin:0 auto;background:url("assets/images/ico_top.png");position: absolute;bottom: -30px;left: calc(50% - 27px);}
 .ombre:before{content:"";width:100%;height:10px;background:url("assets/images/ombre.png");position:absolute;bottom:-14px;left:0;}
@@ -96,7 +96,7 @@ body>header{
     display: flex;
     justify-content: space-between;
     align-items: end;
-    background-repeat-y: no-repeat;
+    border-bottom: solid;
     background-position: bottom;
 }
 body>header>hgroup>*{margin:0;}
@@ -222,7 +222,7 @@ body>main>aside>ul>li>img{}
 
 body>footer{
     display: flex;
-    background-repeat-y: no-repeat;
+    border-top: solid;
     background-position: top;
 }
 body>footer>section{
